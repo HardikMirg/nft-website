@@ -1,0 +1,51 @@
+ _   _ ______ _____                _         _ _       
+| \ | ||  ___|_   _|              | |       (_) |      
+|  \| || |_    | |   __      _____| |__  ___ _| |_ ___ 
+| . ` ||  _|   | |   \ \ /\ / / _ \ '_ \/ __| | __/ _ \
+| |\  || |     | |    \ V  V /  __/ |_) \__ \ | ||  __/
+\_| \_/\_|     \_/     \_/\_/ \___|_.__/|___/_|\__\___|
+                                                       
+                                                       
+Tech Stack --> HTML, CSS, JS
+
+:root {
+  --bg-color : #0a1011;
+  --fg-color : #d7e0e0;
+  --red : #df5b61;
+  --green : #6ec587;
+  --yellow : #deb26a;
+  --blue :#659bdb;
+  --magenta : #c167d9;
+  --black : #121b1c;
+  --white : #c5d7d7;
+}
+
+primary:
+    background: '#0a1011'
+    foreground: '#d7e0e0'
+normal:
+    black:   '#0d1617'
+    red:     '#df5b61'
+    green:   '#6ec587'
+    yellow:  '#deb26a'
+    blue:    '#659bdb'
+    magenta: '#c167d9'
+    cyan:    '#6fd1d5'
+    white:   '#c5d7d7'
+bright:
+    black:   '#121b1c'
+    red:     '#f16269'
+    green:   '#8dd5a0'
+    yellow:  '#dbb476'
+    blue:    '#739bdf'
+    magenta: '#d16ee0'
+    cyan:    '#7bd3e0'
+    white:   '#cedcd9'
+
+ANIMATION (very very much) -- GSAP
+PAGE TRANSITION -- BARBA.JS
+BUILT IN DARK/LIGHT MODE
+
+2 PAGES
+1) THE BAD -- namish
+2) HOW CAN IT BE IMPROVED -- hardik

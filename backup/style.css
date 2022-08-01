@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+:root {
+  --bg-color: #0a1011;
+  --fg-color: #d7e0e0;
+  --red: #df5b61;
+  --green: #6ec587;
+  --yellow: #deb26a;
+  --blue: #659bdb;
+  --magenta: #c167d9;
+  --black: #121b1c;
+  --white: #c5d7d7;
+
+  font-size: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: poppins;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--green);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+#main {
+  width: calc(100vw - 100px);
+  height: calc(100vh - 100px);
+  background-color: var(--green);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+#main p {
+  /* color: var(--white); */
+  color: white;
+  text-align: center;
+  font-size: 5vw;
+  font-weight: bold;
+  z-index: 5;
+}
+
+.move {
+  position: absolute;
+  height: 150px;
+}
+
+#bitcoin {
+  top: 60%;
+  right: 60%;
+}
+#doge {
+  top: 20%;
+  right: 20%;
+}

@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Rubik:wght@300&display=swap');
+
+:root {
+    --bg-color: #0a1011;
+    --fg-color: #d7e0e0;
+    --red: #df5b61;
+    --green: #6ec587;
+    --yellow: #deb26a;
+    --blue: #659bdb;
+    --magenta: #c167d9;
+    --black: #121b1c;
+    --white: #c5d7d7;
+}
+
+*::selection {
+    background: var(--yellow);
+    color: var(--black);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", "Poppins", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 60%;
+}
+
+html::-webkit-scrollbar {
+    background: whitesmoke;
+    width: 8px;
+    height: 100vh;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: var(--black);
+    border-radius: 45px;
+}
+
+body {
+
+    background-color: #f5f5f5;
+    padding: 2rem;
+
+    @media screen and (max-width: 500px) {
+        padding: 0;
+    }
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 95vh;
+    background-color: #000000;
+    background-color: #166d3b;
+    background-image: linear-gradient(147deg, rgba(22, 109, 60, 0.7) 0%, rgba(0, 0, 0, 0.7) 74%), url(images/background.jpg);
+    background-size: cover;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 95vh;
+}
+
+.hero-heading {
+    color: var(--white);
+    text-align: center;
+    font-size: 4rem;
+
+
+}
+
+.button-tray {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+
+}
+
+.animated-word {
+    letter-spacing: 0.4em;
+    font-weight: 600;
+    font-size: 2rem;
+    text-align: center;
+    color: var(--white);
+    cursor: pointer;
+    max-width: 600px;
+    outline: 3px solid;
+    outline-color: var(--red);
+    outline-offset: 10px;
+    transition: all 600ms cubic-bezier(0.2, 0, 0, 0.8);
+}
+
+.animated-word:hover {
+    color: var(--green);
+    outline-color: rgba(71, 126, 232, 0);
+    outline-offset: 50px;
+}
+
+.animated-word a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.wave {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+}
+
+.section {
+    margin: 1.5rem;
+    height: 100vh;
+    font-size: 3rem;
+}
